@@ -6,7 +6,6 @@ import datas from "../data.json";
 export default function CardSection() {
     return datas.map((data) => {
         return(
-
             <div id="CardSection">
             <Card
                 img={data.img}
@@ -15,7 +14,7 @@ export default function CardSection() {
                 title={data.title}
                 date={data.title}
                 desc={data.desc}
-                />
+            />
         </div>
     )
     });
