@@ -1,8 +1,5 @@
 import React from "react";
 
-// images import
-import burger from "../images/burger.jpg";
-
 export default function Card(props) {
     return (
         <div id="Card">
